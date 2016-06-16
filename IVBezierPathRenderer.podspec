@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'IVBezierPathRenderer'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of IVBezierPathRenderer.'
+  s.summary          = 'Alternative Path Renderer for MapKit to render path with bezier curve.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,16 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  MapKit framework provide us useful classes for drawing simple path in MKMapView. 
+  However, those lines draw with MKPolylineRenderer are too plat and unstylized, and most importantly, no bezier path, which is not sufficient for my map application usage. 
+  Therefore, IVBezierPathRenderer is created for more natural map path drawing.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/IVBezierPathRenderer'
+  s.homepage         = 'https://github.com/ivan114/IVBezierPathRenderer'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Ivan' => 'ivan114@me.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/IVBezierPathRenderer.git', :tag => s.version.to_s }
+  s.author           = { 'Ivan' => 'ivanlidev@icloud.com' }
+  s.source           = { :git => 'https://github.com/ivan114/IVBezierPathRenderer.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
