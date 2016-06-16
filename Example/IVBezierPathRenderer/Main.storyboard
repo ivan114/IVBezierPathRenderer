@@ -16,12 +16,56 @@
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="I9F-2d-ahO">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <connections>
+                                    <outlet property="delegate" destination="whP-gf-Uak" id="EoS-9f-R4N"/>
+                                </connections>
+                            </mapView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ItP-Nx-cdW">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem title="Clear" id="rgH-WJ-gkQ">
+                                        <connections>
+                                            <action selector="clearBarButtonAction:" destination="whP-gf-Uak" id="nvA-wH-GfY"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="LHN-cb-BdH"/>
+                                    <barButtonItem title="Add Point" id="U6J-k9-fmX">
+                                        <connections>
+                                            <action selector="addPointBarButtonAction:" destination="whP-gf-Uak" id="zcM-Er-OYC"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pointer" translatesAutoresizingMaskIntoConstraints="NO" id="5tR-ey-91E">
+                                <rect key="frame" x="290" y="300" width="20" height="20"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="I9F-2d-ahO" secondAttribute="bottom" id="0M1-lU-Vyi"/>
+                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="ItP-Nx-cdW" secondAttribute="bottom" id="Qdg-Lu-04h"/>
+                            <constraint firstItem="ItP-Nx-cdW" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" id="cbO-Ui-h39"/>
+                            <constraint firstAttribute="trailing" secondItem="ItP-Nx-cdW" secondAttribute="trailing" id="mJI-Kn-PCv"/>
+                            <constraint firstItem="5tR-ey-91E" firstAttribute="centerX" secondItem="I9F-2d-ahO" secondAttribute="centerX" id="myl-qs-dWk"/>
+                            <constraint firstItem="I9F-2d-ahO" firstAttribute="top" secondItem="TpU-gO-2f1" secondAttribute="top" id="sKa-VV-uwE"/>
+                            <constraint firstItem="I9F-2d-ahO" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" id="wlW-FM-SAh"/>
+                            <constraint firstItem="5tR-ey-91E" firstAttribute="centerY" secondItem="I9F-2d-ahO" secondAttribute="centerY" constant="10" id="xh9-yw-yNh"/>
+                            <constraint firstAttribute="trailing" secondItem="I9F-2d-ahO" secondAttribute="trailing" id="ytK-WJ-ZH2"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="I9F-2d-ahO" id="i6G-sU-r6p"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="305" y="433"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="pointer" width="20" height="20"/>
+    </resources>
 </document>
