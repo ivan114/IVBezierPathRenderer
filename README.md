@@ -5,11 +5,14 @@
 [![License](https://img.shields.io/cocoapods/l/IVBezierPathRenderer.svg?style=flat)](http://cocoapods.org/pods/IVBezierPathRenderer)
 [![Platform](https://img.shields.io/cocoapods/p/IVBezierPathRenderer.svg?style=flat)](http://cocoapods.org/pods/IVBezierPathRenderer)
 
+##Introduction
+  *MapKit* framework provide us useful classes for drawing simple path in *MKMapView*. 
+  However, those lines draw with *MKPolylineRenderer* are too plat and unstylized, and most importantly, no bezier path, which is not sufficient for my map application usage. 
+  Therefore, ***IVBezierPathRenderer*** is created for more natural map path drawing.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
@@ -20,11 +23,40 @@ it, simply add the following line to your Podfile:
 pod "IVBezierPathRenderer"
 ```
 
+After installing the pod add the following line to your source code to import the classes:
+
+```objc
+@import IVBezierPathRenderer;
+```
+
+##Usage
+_IVBezierPathRenderer_ is easy to use. Just create your MKPolyline and MKPolylineRenderer as usual, then replace your _MKPolylineRenderer_ object with _IVBezierPathRenderer_ object. That is all need to be done.
+###Swift:
+```swift
+func mapView(mapView: MKMapView, rendererForOverlay overlay: MKOverlay) -> MKOverlayRenderer {
+	if let overlay = overlay as? MKPolyline{
+		let renderer = IVBezierPathRenderer(overlay:overlay)
+		renderer.strokeColor = UIColor.blueColor().colorWithAlphaComponent(0.5)
+		renderer.lineWidth = 4
+		return renderer
+	}
+}
+```
+###Objective-C:
+```objc
+-(MKOverlayRenderer*)mapView:(MKMapView*)mapView rendererForOverlay:(id<MKOverlay>) overlay{
+	 if([overlay isKindOfClass:[MKPolyline class]]){
+	 	IVBezierPathRenderer *renderer = [[IVBezierPathRenderer alloc] initWithOverlay:overlay];
+	 	renderer.strokeColor = [[UIColor blueColor] colorWithAlphaComponent:0.5f];
+	 	renderer.lineWidth = 4;
+	 	return renderer;
+	 }
+ }
+```
 ## Author
 
-Ivan, ivan114@me.com
+Ivan Li, ivanlidev@icloud.com
 
 ## License
 
 IVBezierPathRenderer is available under the MIT license. See the LICENSE file for more info.
-# IVBezierPathRenderer
