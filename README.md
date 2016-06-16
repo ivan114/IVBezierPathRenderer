@@ -57,6 +57,11 @@ func mapView(mapView: MKMapView, rendererForOverlay overlay: MKOverlay) -> MKOve
 
 Ivan Li, ivanlidev@icloud.com
 
+##References
+
+- ASPolylineView by nighthawk (https://github.com/nighthawk/ASPolylineView)
+- Draw a Bezier Curve through a set of 2D Points in iOS (http://ymedialabs.github.io/blog/2015/05/12/draw-a-bezier-curve-through-a-set-of-2d-points-in-ios/)
+
 ## License
 
 IVBezierPathRenderer is available under the MIT license. See the LICENSE file for more info.
