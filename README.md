@@ -10,6 +10,8 @@
   However, those lines draw with *MKPolylineRenderer* are too plat and unstylized, and most importantly, no bezier path, which is not sufficient for my map application usage. 
   Therefore, ***IVBezierPathRenderer*** is created for more natural map path drawing.
 
+##Screenshots
+![Screenshots](http://cl.ly/gTFl/IVBezierPathRendererScreenshots.png)
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -38,6 +40,9 @@ func mapView(mapView: MKMapView, rendererForOverlay overlay: MKOverlay) -> MKOve
 		let renderer = IVBezierPathRenderer(overlay:overlay)
 		renderer.strokeColor = UIColor.blueColor().colorWithAlphaComponent(0.5)
 		renderer.lineWidth = 4
+		//Optional Border
+		//renderer.borderColor = renderer.strokeColor
+		//renderer.borderMultiplier = 1.5
 		return renderer
 	}
 }
@@ -49,6 +54,9 @@ func mapView(mapView: MKMapView, rendererForOverlay overlay: MKOverlay) -> MKOve
 	 	IVBezierPathRenderer *renderer = [[IVBezierPathRenderer alloc] initWithOverlay:overlay];
 	 	renderer.strokeColor = [[UIColor blueColor] colorWithAlphaComponent:0.5f];
 	 	renderer.lineWidth = 4;
+	 	//Optional Border
+		//renderer.borderColor = renderer.strokeColor;
+		//renderer.borderMultiplier = 1.5;
 	 	return renderer;
 	 }
  }
