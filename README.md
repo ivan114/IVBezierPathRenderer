@@ -27,3 +27,4 @@ Ivan, ivan114@me.com
 ## License
 
 IVBezierPathRenderer is available under the MIT license. See the LICENSE file for more info.
+# IVBezierPathRenderer
