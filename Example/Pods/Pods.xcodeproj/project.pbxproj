@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03B437C81EA31378B3E767450E8FCE03 /* Pods-IVBezierPathRenderer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BA8E29FAFA89626D2D877C9CDAA463F /* Pods-IVBezierPathRenderer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2339FE358A3D4D437C795D17BEF844F7 /* IVBezierPathRenderer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF68D59B2F7B54FFADB41D9D2EB60A7 /* IVBezierPathRenderer-dummy.m */; };
+		524049D1DE5BCF2F84D4DF2E30CCE4D4 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 47508B4FED86623966B3F2A0095C1DCA /* ReplaceMe.m */; };
+		60897E1C37B614FCF651008330595416 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		6B9A3DAD717334AE23C5E0E06334350E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		933E069F55AE89E0C6B904C209F62065 /* IVBezierPathRenderer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B72E5F64285162B2C4AF27A024C24913 /* IVBezierPathRenderer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CD09BAB7DA1B3CC301CFA89B158AB58 /* Pods-IVBezierPathRenderer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C0C4AB0C4BEDFB42EBA388648BAD1 /* Pods-IVBezierPathRenderer_Tests-dummy.m */; };
+		AA06D9F981B0395192B8642F39298B28 /* Pods-IVBezierPathRenderer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD52539233462210A4A36A28F7518514 /* Pods-IVBezierPathRenderer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF39176FDE568882DC7F908805FF2EC3 /* Pods-IVBezierPathRenderer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CB0F2E4CC797706AA58247AB0BA3A3 /* Pods-IVBezierPathRenderer_Example-dummy.m */; };
+		F9403BF2346EF78BBD8A1D010A87EDA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E929B5A3DD2CBB4CEDEB4DF71BB30ABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42ADD13934EF77E39D4E3F6DC1F8FF2B;
+			remoteInfo = IVBezierPathRenderer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06DDA93FBD02FF8AF999340F4C39D35B /* Pods-IVBezierPathRenderer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IVBezierPathRenderer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0BA8E29FAFA89626D2D877C9CDAA463F /* Pods-IVBezierPathRenderer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IVBezierPathRenderer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0EF68D59B2F7B54FFADB41D9D2EB60A7 /* IVBezierPathRenderer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IVBezierPathRenderer-dummy.m"; sourceTree = "<group>"; };
+		3F1F16D2939EA8862820AC12024BE51A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		406DAB6937946D26A14940B7EB1BCA49 /* IVBezierPathRenderer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = IVBezierPathRenderer.modulemap; sourceTree = "<group>"; };
+		47508B4FED86623966B3F2A0095C1DCA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		4989535ABF93F0404C0D192D54047465 /* Pods-IVBezierPathRenderer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IVBezierPathRenderer_Example-resources.sh"; sourceTree = "<group>"; };
+		4A10BC7289553814F1825120E1B60862 /* Pods-IVBezierPathRenderer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IVBezierPathRenderer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4A6C604C9D4D8C131611F9598D6AFD62 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D8AB62A0DE7939A4999A00D0765F023 /* Pods-IVBezierPathRenderer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IVBezierPathRenderer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		548785355AB37BF944F6AE24F0E7610B /* IVBezierPathRenderer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IVBezierPathRenderer-prefix.pch"; sourceTree = "<group>"; };
+		6D8C0C4AB0C4BEDFB42EBA388648BAD1 /* Pods-IVBezierPathRenderer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IVBezierPathRenderer_Tests-dummy.m"; sourceTree = "<group>"; };
+		7616E2647AB1E844370F1A82122D6ED7 /* Pods_IVBezierPathRenderer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IVBezierPathRenderer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77B8494048FABA2054B54B3CA8F1716F /* Pods-IVBezierPathRenderer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IVBezierPathRenderer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F80E90EA051952AEA2D80D645C8AA49 /* Pods-IVBezierPathRenderer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IVBezierPathRenderer_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FC54E3829B728A15C2B7A0651DD6357 /* Pods-IVBezierPathRenderer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IVBezierPathRenderer_Tests-resources.sh"; sourceTree = "<group>"; };
+		AEBBBCD6E404AEF2CE3ECBBCC6ABD62C /* Pods-IVBezierPathRenderer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IVBezierPathRenderer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AEDDCA1E81561622F4B7D367EEC65B81 /* IVBezierPathRenderer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IVBezierPathRenderer.xcconfig; sourceTree = "<group>"; };
+		B72E5F64285162B2C4AF27A024C24913 /* IVBezierPathRenderer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IVBezierPathRenderer-umbrella.h"; sourceTree = "<group>"; };
+		B802ACEBC8F765E075ECBFA68C20E2AF /* Pods-IVBezierPathRenderer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IVBezierPathRenderer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B8BFDE24BDC5049E62F367CD15BABD3C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCA4F9F14D308B68202E8E10E6AC8216 /* Pods-IVBezierPathRenderer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-IVBezierPathRenderer_Example.modulemap"; sourceTree = "<group>"; };
+		BD76E560FCCAFD95382D4E7811F2B7A7 /* Pods-IVBezierPathRenderer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IVBezierPathRenderer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C62759F437CD4AC17CFA1A00B73D221B /* Pods_IVBezierPathRenderer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IVBezierPathRenderer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9CB0F2E4CC797706AA58247AB0BA3A3 /* Pods-IVBezierPathRenderer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IVBezierPathRenderer_Example-dummy.m"; sourceTree = "<group>"; };
+		CA2FC9ADFE9C9842057445E036A996FD /* IVBezierPathRenderer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IVBezierPathRenderer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF50AC107F69F6AAD2E9A37AB1163549 /* Pods-IVBezierPathRenderer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IVBezierPathRenderer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DD52539233462210A4A36A28F7518514 /* Pods-IVBezierPathRenderer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IVBezierPathRenderer_Example-umbrella.h"; sourceTree = "<group>"; };
+		E142DF23B91A676A8A293F75F7FA3B11 /* Pods-IVBezierPathRenderer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IVBezierPathRenderer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FCB817BA1BB8FA6D31A7F69ABD459133 /* Pods-IVBezierPathRenderer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-IVBezierPathRenderer_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FF52E449CE0536650A358F19682B8A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60897E1C37B614FCF651008330595416 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837C54A66D22239A0F56127E2BA6E640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B9A3DAD717334AE23C5E0E06334350E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883AEA372CE2BB06E1BA9BD186962950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9403BF2346EF78BBD8A1D010A87EDA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A831EF2997332BAAE9F481655F76CB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA2FC9ADFE9C9842057445E036A996FD /* IVBezierPathRenderer.framework */,
+				7616E2647AB1E844370F1A82122D6ED7 /* Pods_IVBezierPathRenderer_Example.framework */,
+				C62759F437CD4AC17CFA1A00B73D221B /* Pods_IVBezierPathRenderer_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20BFDBACEDA8A7EACBC2C14CE87B54DD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AC0FD4C6FD802540D943D4A6771B69F /* IVBezierPathRenderer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2AC0FD4C6FD802540D943D4A6771B69F /* IVBezierPathRenderer */ = {
+			isa = PBXGroup;
+			children = (
+				CA57FECEB3D33AFE78AEA34CD240B816 /* IVBezierPathRenderer */,
+				A0AA76C1F12C20026208F98BC33B07BF /* Support Files */,
+			);
+			name = IVBezierPathRenderer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F6A1D71663FF26AA154A556BCFCBD84 /* Pods-IVBezierPathRenderer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B8BFDE24BDC5049E62F367CD15BABD3C /* Info.plist */,
+				BCA4F9F14D308B68202E8E10E6AC8216 /* Pods-IVBezierPathRenderer_Example.modulemap */,
+				B802ACEBC8F765E075ECBFA68C20E2AF /* Pods-IVBezierPathRenderer_Example-acknowledgements.markdown */,
+				4A10BC7289553814F1825120E1B60862 /* Pods-IVBezierPathRenderer_Example-acknowledgements.plist */,
+				C9CB0F2E4CC797706AA58247AB0BA3A3 /* Pods-IVBezierPathRenderer_Example-dummy.m */,
+				E142DF23B91A676A8A293F75F7FA3B11 /* Pods-IVBezierPathRenderer_Example-frameworks.sh */,
+				4989535ABF93F0404C0D192D54047465 /* Pods-IVBezierPathRenderer_Example-resources.sh */,
+				DD52539233462210A4A36A28F7518514 /* Pods-IVBezierPathRenderer_Example-umbrella.h */,
+				CF50AC107F69F6AAD2E9A37AB1163549 /* Pods-IVBezierPathRenderer_Example.debug.xcconfig */,
+				4D8AB62A0DE7939A4999A00D0765F023 /* Pods-IVBezierPathRenderer_Example.release.xcconfig */,
+			);
+			name = "Pods-IVBezierPathRenderer_Example";
+			path = "Target Support Files/Pods-IVBezierPathRenderer_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				20BFDBACEDA8A7EACBC2C14CE87B54DD /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0A831EF2997332BAAE9F481655F76CB9 /* Products */,
+				FEFCD7912191ECAF067505D3A2D23EA2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E49C4724BA3DA35CED1AB251DB099B5 /* Pods-IVBezierPathRenderer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3F1F16D2939EA8862820AC12024BE51A /* Info.plist */,
+				FCB817BA1BB8FA6D31A7F69ABD459133 /* Pods-IVBezierPathRenderer_Tests.modulemap */,
+				BD76E560FCCAFD95382D4E7811F2B7A7 /* Pods-IVBezierPathRenderer_Tests-acknowledgements.markdown */,
+				AEBBBCD6E404AEF2CE3ECBBCC6ABD62C /* Pods-IVBezierPathRenderer_Tests-acknowledgements.plist */,
+				6D8C0C4AB0C4BEDFB42EBA388648BAD1 /* Pods-IVBezierPathRenderer_Tests-dummy.m */,
+				7F80E90EA051952AEA2D80D645C8AA49 /* Pods-IVBezierPathRenderer_Tests-frameworks.sh */,
+				9FC54E3829B728A15C2B7A0651DD6357 /* Pods-IVBezierPathRenderer_Tests-resources.sh */,
+				0BA8E29FAFA89626D2D877C9CDAA463F /* Pods-IVBezierPathRenderer_Tests-umbrella.h */,
+				77B8494048FABA2054B54B3CA8F1716F /* Pods-IVBezierPathRenderer_Tests.debug.xcconfig */,
+				06DDA93FBD02FF8AF999340F4C39D35B /* Pods-IVBezierPathRenderer_Tests.release.xcconfig */,
+			);
+			name = "Pods-IVBezierPathRenderer_Tests";
+			path = "Target Support Files/Pods-IVBezierPathRenderer_Tests";
+			sourceTree = "<group>";
+		};
+		A01B336E6388D3B850FB34FF789B8020 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				47508B4FED86623966B3F2A0095C1DCA /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A0AA76C1F12C20026208F98BC33B07BF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A6C604C9D4D8C131611F9598D6AFD62 /* Info.plist */,
+				406DAB6937946D26A14940B7EB1BCA49 /* IVBezierPathRenderer.modulemap */,
+				AEDDCA1E81561622F4B7D367EEC65B81 /* IVBezierPathRenderer.xcconfig */,
+				0EF68D59B2F7B54FFADB41D9D2EB60A7 /* IVBezierPathRenderer-dummy.m */,
+				548785355AB37BF944F6AE24F0E7610B /* IVBezierPathRenderer-prefix.pch */,
+				B72E5F64285162B2C4AF27A024C24913 /* IVBezierPathRenderer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/IVBezierPathRenderer";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA57FECEB3D33AFE78AEA34CD240B816 /* IVBezierPathRenderer */ = {
+			isa = PBXGroup;
+			children = (
+				A01B336E6388D3B850FB34FF789B8020 /* Classes */,
+			);
+			path = IVBezierPathRenderer;
+			sourceTree = "<group>";
+		};
+		FEFCD7912191ECAF067505D3A2D23EA2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F6A1D71663FF26AA154A556BCFCBD84 /* Pods-IVBezierPathRenderer_Example */,
+				8E49C4724BA3DA35CED1AB251DB099B5 /* Pods-IVBezierPathRenderer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5F3FD4E710520B3410712F52898223A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA06D9F981B0395192B8642F39298B28 /* Pods-IVBezierPathRenderer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC307CA29C3A3E3CC4F20B1142BFCBB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B437C81EA31378B3E767450E8FCE03 /* Pods-IVBezierPathRenderer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC24DF61FD0B6C4833ACA529A0C99434 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933E069F55AE89E0C6B904C209F62065 /* IVBezierPathRenderer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		28F67E2E3460237960A4DEFC59B1C3F5 /* Pods-IVBezierPathRenderer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92A013F72A00D24D47760F5B074FD756 /* Build configuration list for PBXNativeTarget "Pods-IVBezierPathRenderer_Example" */;
+			buildPhases = (
+				49B2B33F8A32C7B4F23BCFF3175AAD0F /* Sources */,
+				837C54A66D22239A0F56127E2BA6E640 /* Frameworks */,
+				5F3FD4E710520B3410712F52898223A4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4D1CC35DC93C758BFF3FEF071EA5761 /* PBXTargetDependency */,
+			);
+			name = "Pods-IVBezierPathRenderer_Example";
+			productName = "Pods-IVBezierPathRenderer_Example";
+			productReference = 7616E2647AB1E844370F1A82122D6ED7 /* Pods_IVBezierPathRenderer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3330504F067FB0F8E25B324E69233460 /* Pods-IVBezierPathRenderer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38EB8225B6756D3236EDE2BA591A19F4 /* Build configuration list for PBXNativeTarget "Pods-IVBezierPathRenderer_Tests" */;
+			buildPhases = (
+				CBCB46139E42969FF4D6C0E93B98CAD7 /* Sources */,
+				1FF52E449CE0536650A358F19682B8A2 /* Frameworks */,
+				AC307CA29C3A3E3CC4F20B1142BFCBB1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-IVBezierPathRenderer_Tests";
+			productName = "Pods-IVBezierPathRenderer_Tests";
+			productReference = C62759F437CD4AC17CFA1A00B73D221B /* Pods_IVBezierPathRenderer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		42ADD13934EF77E39D4E3F6DC1F8FF2B /* IVBezierPathRenderer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F1B4F20553DFF2C7128A42B6CBB2295 /* Build configuration list for PBXNativeTarget "IVBezierPathRenderer" */;
+			buildPhases = (
+				CF0AAD729BC6CA0B2CB5153AAA003CB5 /* Sources */,
+				883AEA372CE2BB06E1BA9BD186962950 /* Frameworks */,
+				BC24DF61FD0B6C4833ACA529A0C99434 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IVBezierPathRenderer;
+			productName = IVBezierPathRenderer;
+			productReference = CA2FC9ADFE9C9842057445E036A996FD /* IVBezierPathRenderer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0A831EF2997332BAAE9F481655F76CB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42ADD13934EF77E39D4E3F6DC1F8FF2B /* IVBezierPathRenderer */,
+				28F67E2E3460237960A4DEFC59B1C3F5 /* Pods-IVBezierPathRenderer_Example */,
+				3330504F067FB0F8E25B324E69233460 /* Pods-IVBezierPathRenderer_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49B2B33F8A32C7B4F23BCFF3175AAD0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF39176FDE568882DC7F908805FF2EC3 /* Pods-IVBezierPathRenderer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBCB46139E42969FF4D6C0E93B98CAD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CD09BAB7DA1B3CC301CFA89B158AB58 /* Pods-IVBezierPathRenderer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0AAD729BC6CA0B2CB5153AAA003CB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2339FE358A3D4D437C795D17BEF844F7 /* IVBezierPathRenderer-dummy.m in Sources */,
+				524049D1DE5BCF2F84D4DF2E30CCE4D4 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4D1CC35DC93C758BFF3FEF071EA5761 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IVBezierPathRenderer;
+			target = 42ADD13934EF77E39D4E3F6DC1F8FF2B /* IVBezierPathRenderer */;
+			targetProxy = E929B5A3DD2CBB4CEDEB4DF71BB30ABF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FE81A4F64F149B414A0A48F58E27C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D8AB62A0DE7939A4999A00D0765F023 /* Pods-IVBezierPathRenderer_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-IVBezierPathRenderer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IVBezierPathRenderer_Example/Pods-IVBezierPathRenderer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_IVBezierPathRenderer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C7AB21D7B61FBD75FE04F0BB819F42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEDDCA1E81561622F4B7D367EEC65B81 /* IVBezierPathRenderer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IVBezierPathRenderer/IVBezierPathRenderer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IVBezierPathRenderer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IVBezierPathRenderer/IVBezierPathRenderer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = IVBezierPathRenderer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		69E91256CC705CC76817F15BB673315A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF50AC107F69F6AAD2E9A37AB1163549 /* Pods-IVBezierPathRenderer_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-IVBezierPathRenderer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IVBezierPathRenderer_Example/Pods-IVBezierPathRenderer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_IVBezierPathRenderer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A46EFD0661CD7FFDB6CE2C018A5AF8FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77B8494048FABA2054B54B3CA8F1716F /* Pods-IVBezierPathRenderer_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-IVBezierPathRenderer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IVBezierPathRenderer_Tests/Pods-IVBezierPathRenderer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_IVBezierPathRenderer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B2735D56B92959284335BFCF3E5C0B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06DDA93FBD02FF8AF999340F4C39D35B /* Pods-IVBezierPathRenderer_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-IVBezierPathRenderer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IVBezierPathRenderer_Tests/Pods-IVBezierPathRenderer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_IVBezierPathRenderer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD4A81CE76C2E0BC862B1ED30CAFBDBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEDDCA1E81561622F4B7D367EEC65B81 /* IVBezierPathRenderer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IVBezierPathRenderer/IVBezierPathRenderer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IVBezierPathRenderer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IVBezierPathRenderer/IVBezierPathRenderer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = IVBezierPathRenderer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38EB8225B6756D3236EDE2BA591A19F4 /* Build configuration list for PBXNativeTarget "Pods-IVBezierPathRenderer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A46EFD0661CD7FFDB6CE2C018A5AF8FE /* Debug */,
+				B2735D56B92959284335BFCF3E5C0B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F1B4F20553DFF2C7128A42B6CBB2295 /* Build configuration list for PBXNativeTarget "IVBezierPathRenderer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C7AB21D7B61FBD75FE04F0BB819F42F /* Debug */,
+				CD4A81CE76C2E0BC862B1ED30CAFBDBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92A013F72A00D24D47760F5B074FD756 /* Build configuration list for PBXNativeTarget "Pods-IVBezierPathRenderer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69E91256CC705CC76817F15BB673315A /* Debug */,
+				0FE81A4F64F149B414A0A48F58E27C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

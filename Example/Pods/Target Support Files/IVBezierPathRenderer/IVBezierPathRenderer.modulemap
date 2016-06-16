@@ -1,0 +1,6 @@
+framework module IVBezierPathRenderer {
+  umbrella header "IVBezierPathRenderer-umbrella.h"
+
+  export *
+  module * { export * }
+}
