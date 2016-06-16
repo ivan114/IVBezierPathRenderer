@@ -1,4 +1,4 @@
-![IVBezierPathRenderer](http://cl.ly/gTfv/IVBezierPathRendererBanner.png)
+![IVBezierPathRenderer](http://cl.ly/gT4q/IVBezierPathRendererBanner.png)
 
 [![CI Status](http://img.shields.io/travis/Ivan/IVBezierPathRenderer.svg?style=flat)](https://travis-ci.org/Ivan/IVBezierPathRenderer)
 [![Version](https://img.shields.io/cocoapods/v/IVBezierPathRenderer.svg?style=flat)](http://cocoapods.org/pods/IVBezierPathRenderer)
@@ -11,7 +11,7 @@
   Therefore, ***IVBezierPathRenderer*** is created for more natural map path drawing.
 
 ##Screenshots
-![Screenshots](http://cl.ly/gTFl/IVBezierPathRendererScreenshots.png)
+![Screenshots](http://cl.ly/gTB7/IVBezierPathRendererScreenshots.png)
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
