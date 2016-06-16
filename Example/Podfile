@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'IVBezierPathRenderer_Example' do
+  pod 'IVBezierPathRenderer', :path => '../'
+
+  target 'IVBezierPathRenderer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
