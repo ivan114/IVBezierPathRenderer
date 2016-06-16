@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/ivan114/IVBezierPathRenderer'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Ivan' => 'ivanlidev@icloud.com' }
+  s.author           = { 'Ivan Li' => 'ivanlidev@icloud.com' }
   s.source           = { :git => 'https://github.com/ivan114/IVBezierPathRenderer.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
