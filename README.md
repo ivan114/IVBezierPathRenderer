@@ -25,7 +25,7 @@ it, simply add the following line to your Podfile:
 pod "IVBezierPathRenderer"
 ```
 
-After installing the pod add the following line to your source code to import the classes:
+After installing the pod add the following import header to your source code
 
 ```objc
 @import IVBezierPathRenderer;
@@ -40,6 +40,8 @@ func mapView(mapView: MKMapView, rendererForOverlay overlay: MKOverlay) -> MKOve
 		let renderer = IVBezierPathRenderer(overlay:overlay)
 		renderer.strokeColor = UIColor.blueColor().colorWithAlphaComponent(0.5)
 		renderer.lineWidth = 4
+		//Optional Tension for curve, default: 4
+	 	//renderer.tension = 2.5
 		//Optional Border
 		//renderer.borderColor = renderer.strokeColor
 		//renderer.borderMultiplier = 1.5
@@ -54,6 +56,8 @@ func mapView(mapView: MKMapView, rendererForOverlay overlay: MKOverlay) -> MKOve
 	 	IVBezierPathRenderer *renderer = [[IVBezierPathRenderer alloc] initWithOverlay:overlay];
 	 	renderer.strokeColor = [[UIColor blueColor] colorWithAlphaComponent:0.5f];
 	 	renderer.lineWidth = 4;
+	 	//Optional Tension for curve, default: 4
+	 	//renderer.tension = 2.5;
 	 	//Optional Border
 		//renderer.borderColor = renderer.strokeColor;
 		//renderer.borderMultiplier = 1.5;
