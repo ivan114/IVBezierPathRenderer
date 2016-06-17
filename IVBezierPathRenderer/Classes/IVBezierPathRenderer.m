@@ -8,11 +8,6 @@
 #import "UIBezierPath+GuidedPath.h"
 #import "IVBezierPathRenderer.h"
 
-@interface IVBezierPathRenderer () {
-    CGMutablePathRef _mutablePath;
-}
-@end
-
 @implementation IVBezierPathRenderer
 
 -(instancetype)initWithOverlay:(id<MKOverlay>)overlay{
@@ -24,7 +19,6 @@
         self.tension = tension;
         self.borderMultiplier = 0;
         self.borderColor = [UIColor blackColor];
-        _mutablePath = CGPathCreateMutable();
     }
     return self;
 }
@@ -60,10 +54,6 @@
 {
     CGFloat baseWidth = self.lineWidth;
     
-    // nice for debugging
-    //  CGContextSetRGBFillColor(context, (rand() % 255) / 255.0, 0, 0, 0.1);
-    //  CGContextFillRect(context, [self rectForMapRect:mapRect]);
-    
     // draw the border. it's slightly wider than the specified line width.
     if (self.borderMultiplier > 0) {
         [self drawLine:self.borderColor.CGColor
@@ -80,12 +70,6 @@
       forZoomScale:zoomScale
          inContext:context];
     
-}
-
-- (void)dealloc
-{
-    CGPathRelease(_mutablePath);
-    _mutablePath = NULL;
 }
 
 - (void)drawLine:(CGColorRef)color

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IVBezierPathRenderer'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Alternative Path Renderer for MapKit to render path with bezier curve.'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/ivan114/IVBezierPathRenderer'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots     = 'http://cl.ly/gTB7/IVBezierPathRendererScreenshots.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ivan Li' => 'ivanlidev@icloud.com' }
   s.source           = { :git => 'https://github.com/ivan114/IVBezierPathRenderer.git', :tag => s.version.to_s }
