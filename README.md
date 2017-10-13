@@ -65,6 +65,11 @@ func mapView(mapView: MKMapView, rendererForOverlay overlay: MKOverlay) -> MKOve
 	 }
  }
 ```
+###For gradient line use:###
+```objc
+-(instancetype)initWithOverlay:(id<MKOverlay>)overlay colors:(NSArray *)colors tension:(NSNumber *)tension
+```
+
 ## Author
 
 Ivan Li, ivanlidev@icloud.com
