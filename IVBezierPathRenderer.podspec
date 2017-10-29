@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IVBezierPathRenderer'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Alternative Path Renderer for MapKit to render path with bezier curve.'
 
 # This description is used to generate tags and improve search results.
