@@ -5,12 +5,12 @@
 [![License](https://img.shields.io/cocoapods/l/IVBezierPathRenderer.svg?style=flat)](http://cocoapods.org/pods/IVBezierPathRenderer)
 [![Platform](https://img.shields.io/cocoapods/p/IVBezierPathRenderer.svg?style=flat)](http://cocoapods.org/pods/IVBezierPathRenderer)
 
-##Introduction
+## Introduction
   *MapKit* framework provide us useful classes for drawing simple path in *MKMapView*. 
   However, those lines draw with *MKPolylineRenderer* are too plat and unstylized, and most importantly, no bezier path, which is not sufficient for my map application usage. 
   Therefore, ***IVBezierPathRenderer*** is created for more natural map path drawing.
 
-##Screenshots
+## Screenshots
 ![Screenshots](http://cl.ly/gTB7/IVBezierPathRendererScreenshots.png)
 ## Example
 
@@ -31,9 +31,9 @@ After installing the pod add the following import header to your source code
 @import IVBezierPathRenderer;
 ```
 
-##Usage
+## Usage
 _IVBezierPathRenderer_ is easy to use. Just create your MKPolyline and MKPolylineRenderer as usual, then replace your _MKPolylineRenderer_ object with _IVBezierPathRenderer_ object. That is all need to be done.
-###Swift:
+### Swift:
 ```swift
 func mapView(mapView: MKMapView, rendererForOverlay overlay: MKOverlay) -> MKOverlayRenderer {
 	if let overlay = overlay as? MKPolyline{
@@ -49,7 +49,7 @@ func mapView(mapView: MKMapView, rendererForOverlay overlay: MKOverlay) -> MKOve
 	}
 }
 ```
-###Objective-C:
+### Objective-C:
 ```objc
 -(MKOverlayRenderer*)mapView:(MKMapView*)mapView rendererForOverlay:(id<MKOverlay>) overlay{
 	 if([overlay isKindOfClass:[MKPolyline class]]){
@@ -65,7 +65,7 @@ func mapView(mapView: MKMapView, rendererForOverlay overlay: MKOverlay) -> MKOve
 	 }
  }
 ```
-###For gradient line use:###
+### For gradient line use:###
 ```objc
 -(instancetype)initWithOverlay:(id<MKOverlay>)overlay colors:(NSArray *)colors tension:(NSNumber *)tension
 ```
@@ -74,7 +74,7 @@ func mapView(mapView: MKMapView, rendererForOverlay overlay: MKOverlay) -> MKOve
 
 Ivan Li, ivanlidev@icloud.com
 
-##References
+## References
 
 - ASPolylineView by nighthawk (https://github.com/nighthawk/ASPolylineView)
 - Draw a Bezier Curve through a set of 2D Points in iOS (http://ymedialabs.github.io/blog/2015/05/12/draw-a-bezier-curve-through-a-set-of-2d-points-in-ios/)
