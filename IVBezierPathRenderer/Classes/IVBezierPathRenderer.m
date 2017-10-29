@@ -82,8 +82,8 @@
                   forZoomScale:zoomScale
                      inContext:context];
     } else {
-        [self drawLine:self.borderColor.CGColor
-                 width:(baseWidth * self.borderMultiplier) / zoomScale
+        [self drawLine:self.strokeColor.CGColor
+                 width:baseWidth / zoomScale
            allowDashes:YES
           forZoomScale:zoomScale
              inContext:context];
